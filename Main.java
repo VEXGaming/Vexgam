@@ -1,6 +1,6 @@
 package application;
 	
-//ОСУЩЕСТВЕЛЕНО ОТРАЖЕНИЕ ОТ СТЕНОК И ОТ РАКЕТКИ.
+
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -39,7 +39,7 @@ public class Main extends Application {
 	double speedY = 3;
 	double speedX =3;
 	double n=1;
-	
+	Image GG = new Image("GG.png");
 	
 	public static double getRandomDouble(double min, double max){
 	    double x = (Math.random()*((max-min)+1))+min;
